@@ -6,12 +6,12 @@ img_counter = 0
 
 user_input = input("Enter: FACE/NO")
 
-dir = ""
+# dir = ""
 
 if user_input == "FACE":
-    dir ="./images/FACE/opencv_frame_{}.png"
+    dir ="./FACE/opencv_frame_{}.png"
 else:
-    dir ="./images/NO/opencv_frame_{}.png"
+    dir ="./NO/opencv_frame_{}.png"
 
 
 
